@@ -1,0 +1,27 @@
+<!--Author: 沙振宇-->
+<!--CreateTime: 2019-7-29-->
+<!--UpdateTime: 2019-12-17-->
+<!--Info: 上传Excel文件-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件上传</title>
+    <script type="text/javascript" src="upload.js"></script>
+    <script type="text/javascript" src="jquery1.11.1.js"></script>
+    <link href="upload.css" rel="stylesheet">
+</head>
+<body>
+    <div class="div_center">
+        <div class="row">
+            <label for="fileToUpload">文件上传测试<br><br></label>
+            <input class="file_select" type="file" accept="." name="fileToUpload" id="fileToUpload" onchange="fileSelected();">
+        </div>
+        <div id="fileName"></div>
+        <div id="fileSize"></div>
+        <div id="fileType"></div>
+        <div id="uploadFile"></div>
+        <div id="progressNumber"></div>
+    </div>
+</body>
+</html>
