@@ -24,8 +24,7 @@ class UploadFile(tornado.web.RequestHandler):
         set_default_header(self)
         ret = {'result': 'OK'}
         files = os.path.dirname(__file__)
-        print("ret.....",ret)
-        print("files.....",files)
+        print("ret.....",ret,files)
         upload_path = files + '/create'  # 生成文件的路径
         print("upload_path.....",upload_path)
         file_metas = self.request.files.get('exceldata', None)  # 提取表单中‘name’为‘exceldata’的文件元数据
@@ -48,6 +47,7 @@ def make_app():
 
 if __name__ =="__main__":
     port = 9088
+    print("port.....",port)
     app = make_app()
     sockets = tornado.netutil.bind_sockets(port)
     http_server = tornado.httpserver.HTTPServer(app)
