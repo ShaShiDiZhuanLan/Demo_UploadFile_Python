@@ -22,6 +22,6 @@ python3提供接口供 网页上传文件 示例，包括各种文件的上传�
 ./其它文件
 # 4、效果
 ## 4.1、Python效果图
-![image](%E6%95%88%E6%9E%9C.png)
+![image](https://github.com/ShaShiDiZhuanLan/Demo_UploadFile_Python/blob/master/%E6%95%88%E6%9E%9C.png)
 ## 4.2、网页效果图
-![image](%E7%BD%91%E9%A1%B5%E6%95%88%E6%9E%9C%E5%9B%BE.png)
+![image](https://github.com/ShaShiDiZhuanLan/Demo_UploadFile_Python/blob/master/%E7%BD%91%E9%A1%B5%E6%95%88%E6%9E%9C%E5%9B%BE.png)
